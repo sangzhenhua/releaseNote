@@ -13,8 +13,8 @@ import java.io.InputStreamReader;
 public class Parser {
 	public void parser() throws IOException{
 		
-		File file = new File("builds\\lastStableBuild\\changelog.xml");
-		File note = new File("workspace\\releaseNote.txt");
+		File file = new File("builds/lastStableBuild/changelog.xml");
+		File note = new File("workspace/releaseNote.txt");
 		FileInputStream fis = new FileInputStream(file);
 		InputStreamReader isr = new InputStreamReader(fis,"UTF-8");
 		FileWriter fw = new FileWriter(note);
