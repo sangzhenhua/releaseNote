@@ -8,8 +8,6 @@ public class Note {
 		Parser parser = new Parser();
 		parser.parser();
 		
-		System.out.println("add debug info");
-
 	}
 
 }
