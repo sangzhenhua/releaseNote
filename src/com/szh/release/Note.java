@@ -7,6 +7,8 @@ public class Note {
 	public static void main(String[] args) throws IOException {
 		Parser parser = new Parser();
 		parser.parser();
+		
+		System.out.println("add debug info");
 
 	}
 
